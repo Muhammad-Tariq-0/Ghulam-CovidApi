@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import { experimentalStyled as styled } from "@mui/material/styles";
 import Paper from "@mui/material/Paper";
 import Grid from "@mui/material/Grid";
@@ -29,21 +29,21 @@ const GlobalData = ({ globalData }) => {
             </Grid>
           );
         })}
-         <Grid item xs={12} sm={4}>
+         {/* <Grid item xs={12} sm={4}>
               <Item style={{ backgroundColor: "#EAEEF3" }}>
-                <img src={newcases} height={200} width={200}/>
+                <img src={newcases} height={200} width={200} alt="loading..."/>
               </Item>   
             </Grid>
             <Grid item xs={12} sm={4}>
               <Item style={{ backgroundColor: "#EAEEF3" }}>
-                <img src={hospital} height={200} width={200}/>
+                <img src={hospital} height={200} width={200} alt="loading..."/>
               </Item>   
             </Grid>
             <Grid item xs={12} sm={4}>
               <Item style={{ backgroundColor: "#EAEEF3" }}>
-                <img src={rip} height={200} width={200}/>
+                <img src={rip} height={200} width={200} alt="loading..."/>
               </Item>   
-            </Grid>
+            </Grid> */}
       </Grid>
     </div>
   );

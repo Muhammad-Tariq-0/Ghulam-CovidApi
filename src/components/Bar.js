@@ -8,11 +8,10 @@ import covidicon from './covid.png'
 
 export default function Bar() {
   return (
-   
       <AppBar position="static" style={{backgroundColor:'#4D516C'}}>
         <Toolbar variant="dense">
           <IconButton edge="start" color="inherit" aria-label="menu" sx={{ mr: 2 }}>
-           <img src={covidicon} width={50} height={50}/>
+           <img src={covidicon} width={50} height={50} alt="loading..."/>
           </IconButton>
           <Typography variant="h6" color="inherit" component="div">
             Corona Virus
