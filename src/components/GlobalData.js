@@ -3,9 +3,6 @@ import { experimentalStyled as styled } from "@mui/material/styles";
 import Paper from "@mui/material/Paper";
 import Grid from "@mui/material/Grid";
 import "../App.css";
-import newcases from '../images/newcases.png'
-import hospital from '../images/hospital.png'
-import rip from '../images/rip.png'
 
 const Item = styled(Paper)(({ theme }) => ({
   ...theme.typography.body2,
@@ -29,21 +26,7 @@ const GlobalData = ({ globalData }) => {
             </Grid>
           );
         })}
-         {/* <Grid item xs={12} sm={4}>
-              <Item style={{ backgroundColor: "#EAEEF3" }}>
-                <img src={newcases} height={200} width={200} alt="loading..."/>
-              </Item>   
-            </Grid>
-            <Grid item xs={12} sm={4}>
-              <Item style={{ backgroundColor: "#EAEEF3" }}>
-                <img src={hospital} height={200} width={200} alt="loading..."/>
-              </Item>   
-            </Grid>
-            <Grid item xs={12} sm={4}>
-              <Item style={{ backgroundColor: "#EAEEF3" }}>
-                <img src={rip} height={200} width={200} alt="loading..."/>
-              </Item>   
-            </Grid> */}
+       
       </Grid>
     </div>
   );

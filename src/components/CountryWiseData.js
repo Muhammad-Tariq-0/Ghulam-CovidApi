@@ -68,13 +68,14 @@ const CountryWiseData = ({ countryData }) => {
 
             {countryData
               .filter((country) => {
-                if (Search == "") {
+                if (Search === "") {
                   return country;
                 } else if (
                   country.Country.toLowerCase().includes(Search.toLowerCase())
                 ) {
                   return country;
-                }
+                } 
+                return( <div></div>)
               })
               .map((country) => {
                 return (
@@ -99,3 +100,6 @@ const CountryWiseData = ({ countryData }) => {
 };
 
 export default CountryWiseData;
+
+
+
